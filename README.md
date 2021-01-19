@@ -6,7 +6,7 @@ The target models for this work are standard supervised DNNs and `gpytorch` base
 
 Example: 
 
-```
+```python
 model = Model()  ## subclass of PLkerasModel
 model.compile(optimizer, baselr, lossfn, metrics)  ## compile the model with an optimizer, loss function and a dictionary of metrics
 model.fit(x, y, validation_split=0.2, batch_size, epochs)  ## fit the model by passing data as either `torch.Tensor` or `numpy.ndarray`. 
