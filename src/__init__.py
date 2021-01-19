@@ -1,2 +1,4 @@
-from base import PLKerasModel
+from . import base
+
+from .base import PLKerasModel
 
